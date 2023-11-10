@@ -1,10 +1,10 @@
+import React from "react";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#" className="logo">
-        <h1>
-          <span>B</span>eatle <span>S</span>hop
-        </h1>
+        <h1>Beatleshop</h1>
       </a>
 
       <ul className="menu">
@@ -32,4 +32,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
 export default Navbar;

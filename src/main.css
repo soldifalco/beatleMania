@@ -28,31 +28,27 @@ body {
 
 .logo {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-shadow: 1px -1px 1px solid;
   text-align: center;
 }
 
-span {
-  color: orangered;
+.navbar {
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.2rem;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-.menu-link {
-  border: 0.8px solid white;
-  padding: 0.4rem;
-  border-radius: 30px;
+  gap: 0.5rem;
+  cursor: pointer;
 }
 
 .menu-link:hover {
-  color: orangered;
-  border: none;
+  color: grey;
+  cursor: pointer;
 }
